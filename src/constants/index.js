@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Flutter Developer",
+      title: "App Developer",
       icon: web,
     },
     {
@@ -50,11 +50,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Robotics Enthusiast",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Entrepreneur",
       icon: creator,
     },
   ];
