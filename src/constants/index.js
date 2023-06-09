@@ -23,6 +23,22 @@ import {
     jobit,
     tripguide,
     threejs,
+    capillary,
+    brokol,
+    jobbox,
+    arduino,
+    cplus,
+    dart,
+    firebase,
+    heroku,
+    python,
+    pytorch,
+    scikitlearn,
+    sql,
+    sqlite,
+    swift,
+    tensorflow,
+    java,
   } from "../assets";
   
   export const navLinks = [
@@ -61,110 +77,114 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "java",
+      icon: java
+    },
+    {
+      name: "cplus",
+      icon: cplus,
+    },
+    {
+      name: "sql",
+      icon: sql,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "tensorflow",
+      icon: tensorflow,
+    },
+    {
+      name: "pytorch",
+      icon: pytorch,
+    },
+    {
+      name: "scikitlearn",
+      icon: scikitlearn,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "heroku",
+      icon: heroku,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "firebase",
+      icon: firebase,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    // {
+    //   name: "sqlite",
+    //   icon: sqlite,
+    // },
+    // {
+    //   name: "dart",
+    //   icon: dart,
+    // },
+    // {
+    //   name: "swift",
+    //   icon: swift,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "arduino",
+      icon: arduino,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
       title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Jobbox",
+      icon: jobbox,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Enhanced user engagement by redesigning the wallet page UI with the integration of interactive pie-charts, leading to a personalized and visually engaging income and spending tracking system.",
+        "Improved user connectivity by developing a comprehensive messaging feature, employing data structures, back-end integration, and UI design, allowing for seamless communication between users and potential employers.",
+        "Boosted user responsiveness by implementing a real-time notifications feature, alerting users about incoming messages and job application updates, thus promoting timely user response and engagement.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Software Developer",
+      company_name: "Brokol",
+      icon: brokol,
+      iconBg: "#383E56",
+      date: "October 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led the production of an app to reduce consumer food waste, initiating the development cycle during BC HACKS 4.0.",
+        "Built a receipt scanner module utilizing Apples Vision framework and RegEx patterns to extract product names from grocery receipts, achieving an accuracy of 85%.",
+        "Designed and implemented a grocery item database using Sqflite in Flutter, providing seamless CRUD functionalities.",
+      ],
+    },
+    {
+      title: "Data Analyst Intern",
+      company_name: "Capillary Technologies",
+      icon: capillary,
+      iconBg: "#E6DEDD",
+      date: "May 2022 - July 2022",
+      points: [
+        "Executed instrumentation of websites and Android applications using New Relic, retrieving crucial application performance analytics and enabling effective issue resolution.",
+        "Worked cross-functionally with the DevOps team on the instrumentation of a client's consumer-facing app and successfully implemented alert monitors, resulting in a notable 50% decrease in critical incidents.",
+        "Integrated various organizational sources to Elastic Workplace Search service for Capillary Technologies, improving the accuracy and reliability of search results.",
       ],
     },
   ];
