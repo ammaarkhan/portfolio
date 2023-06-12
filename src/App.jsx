@@ -1,9 +1,9 @@
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
 
 const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
     <div className="relative z-0 bg-primary">
       {/* <div className="bg-hero-pattern bg-cover bg-gno-repeat bg-center"> */}
         <Navbar />
@@ -19,7 +19,7 @@ const App = () => {
         <StarsCanvas />
       </div>
     </div>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
