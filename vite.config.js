@@ -4,16 +4,15 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/Personal-Website/' : './',
+  base: './',
   build: {
     rollupOptions: {
-      input: '/src/main.jsx',
+      input: 'src/main.jsx',  // remove leading slash
     },
     outDir: 'dist',
     emptyOutDir: true,
     assetsDir: '',
     sourcemap: true,
-    publicPath: process.env.NODE_ENV === 'production' ? '/Personal-Website/' : '/',
   },
   plugins: [react()],
 })
