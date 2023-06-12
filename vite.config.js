@@ -1,18 +1,16 @@
 // vite.config.js
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import path from 'path'
 
 export default defineConfig({
   base: './',
+  plugins: [react()],
   build: {
-    rollupOptions: {
-      input: 'src/main.jsx',  // remove leading slash
-    },
     outDir: 'dist',
     emptyOutDir: true,
-    assetsDir: '',
-    sourcemap: true,
+    rollupOptions: {
+      input: path.resolve(__dirname, './src/main.jsx'), // Absolute path to entry point
+    },
   },
-  plugins: [react()],
 })
