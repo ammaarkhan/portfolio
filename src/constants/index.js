@@ -218,25 +218,25 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ace Chatbot",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A university advising chatbot that provides a conversational interface for students to interact with, for common advising questions.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Tensorflow",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "NLP",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ammaarkhan/Ace-Chatbot",
     },
     {
       name: "Job IT",
