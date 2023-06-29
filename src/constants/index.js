@@ -239,46 +239,46 @@ import {
       source_code_link: "https://github.com/ammaarkhan/Ace-Chatbot",
     },
     {
-      name: "Job IT",
+      name: "Celebrity Detector",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Celeb Detector is an innovative project employing the Keras VGGFace model to recognize celebrity faces from user-uploaded images, providing users with the name and image of the closest celebrity look-alike.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Keras",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "ML",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ammaarkhan/ML-Celeb-Detector",
     },
     {
-      name: "Trip Guide",
+      name: "OD Car Counter",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project leverages the YOLO Object Detection model for real-time detection and counting of cars in a video, segregated by lane position. It ingeniously blends car and lane detection algorithms, processing each frame to visualize the car count per lane.",
       tags: [
         {
-          name: "nextjs",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "PyTorch",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "OD",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ammaarkhan/OD-Car-Counter",
     },
   ];
   
