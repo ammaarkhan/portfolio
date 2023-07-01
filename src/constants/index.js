@@ -39,6 +39,9 @@ import {
     swift,
     tensorflow,
     java,
+    acechat,
+    celebdetect,
+    cardetect,
   } from "../assets";
   
   export const navLinks = [
@@ -235,7 +238,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: acechat,
       source_code_link: "https://github.com/ammaarkhan/Ace-Chatbot",
     },
     {
@@ -256,7 +259,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: celebdetect,
       source_code_link: "https://github.com/ammaarkhan/ML-Celeb-Detector",
     },
     {
@@ -277,7 +280,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: cardetect,
       source_code_link: "https://github.com/ammaarkhan/OD-Car-Counter",
     },
   ];

@@ -45,7 +45,10 @@ import brokol from "./company/brokol.png";
 import jobbox from "./company/jobbox.jpeg"
 
 import carrent from "./carrent.png";
+import acechat from "./acechat.png"
 import jobit from "./jobit.png";
+import celebdetect from "./celebdetect.png";
+import cardetect from "./cardetect.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -75,6 +78,9 @@ export {
   starbucks,
   tesla,
   capillary,
+  acechat,
+  celebdetect,
+  cardetect,
   carrent,
   jobit,
   tripguide,
