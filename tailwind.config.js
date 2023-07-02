@@ -12,16 +12,17 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+      backgroundImage: theme => ({
+        'gradient-radial': 'radial-gradient(ellipse at center, #151030 0%, #050816 100%)',
+        'hero-pattern': "url('/src/assets/herobg.png')",
+      }),
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
       screens: {
         xs: "450px",
-      },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
-      },
+      }
     },
-  },
+  },  
   plugins: [],
 };

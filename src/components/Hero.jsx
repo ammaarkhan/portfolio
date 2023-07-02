@@ -18,14 +18,6 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-center`}>
             CS student passionate about machine learning, robotics, and mobile application development. 
           </p>
-          {/* <motion.div 
-            animate={{ scale: [1, 1.1, 1] }} 
-            transition={{ duration: 1, repeat: Infinity }}
-          >
-            <ScrollLink to="about" spy={true} smooth={false}  duration={200}>
-              <p className="text-center text-white cursor-pointer">Learn more about me below</p>
-            </ScrollLink>
-          </motion.div> */}
         </div>
       </div>
     </section>
