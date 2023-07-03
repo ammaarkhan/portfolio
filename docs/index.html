@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <link rel="apple-touch-icon" sizes="180x180" href="/portfolio/assets/apple-touch-icon-b9cb3b42.png">
     <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABxVBMVEUAAADe3t7e3t7e3t7f39/f397a29vOz9DNztDa2trS09TP0NHc3N3W19fMzc/T1NXg4OCrrrNPWGVOVmSlqa7c3Nx6gIlhaHTQ0dLU1dZzeYRTXGmytLng4N/d3d11e4Y/SFdASllvdoBpcHtLVGKLkJg3QVGAhY7Jy8xLU2Jwd4F3fYdHUF/Gx8rg399qcXxMVWOprLE+SFdjanbR0dPh4OChpao6RFOjp6w7RVScoKfh4eDDxMdQWGa9v8Lb3NxvdYBJUmDJysxNVmRrcn3b29vOz9HV1dY8RlWipqzFx8lHUF5xd4J2fIZFTl3DxcdNVWOKj5eDiZGbn6U5Q1OipaulqK6YnaNOV2SXnKI/SFhka3dob3vLzM7h4eFMVGNnbnrZ2tqOk5o6RFRtdH7X19jAwsVETVy/wcRDTFvJy82Bho84QlKUmaA2QFA9R1aVmaDT09Q8RlahpKrY2NlIUV+coKakqK2bn6bDxchSW2i1uLy8vsFASVh1e4VBSlmws7dWX2zGyMqMkZmmqa6jpqyPlJuYnKPR0tNxeIJeZXLKy81bY3B0eoR5f4lgZ3Pa2tuVmqHP0NLc3d3Z2dnLzc7///9Jp0fxAAAAA3RSTlMAH+CXJig4AAAAAWJLR0SWkWkrOQAAAAd0SU1FB+cHAwEVMpmgL8cAAAF+SURBVDjLY2CgPWAkABiYCAAGZgKABAUsLKgMVggNV8DGzsEJYXFx84CU8fLxIysQEBQSFhEAsUTFxCVYmFkkpaRlZJEUyMkrKCqJghUoq3CwMMupqqmzIZnAoqGppa2jqwdSoG/AwSJgaGRsguwGUzNzC0FLK1OoAmsbWxU7AWRf2Ds4OnE4u7hCFLi563t4yiJ7U8/L20dUztfPXxakIIAvUC1IFCUcTINDQk2tw0LCTUEKIiKjorlYUBRwxqjExsXxxSckghUkJaekoigQSEs3tsvIsDPOTBMAWZGVnRPIg6IgNy8/HQjy8wpACgy4CxOKilmQFJQYl5aFlZeHVehEl7CCvBlXWeVdjfCmQE1tHUuctXUci1S9nQAkoBoyG5sEYApkm9VarEEc61a1NgFIULO0hyh3sEAVlHR28YFtZOnu6U0U7esHRhbrhCCDiXJQBaLsEnLQKJvkNpm5ww0USCxTpnLDFCDSCpgF46ElGPLTJMFkTzDj0B4AAM1USTkfjiFMAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA3LTAzVDAxOjIxOjUwKzAwOjAwdMrxFQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wNy0wM1QwMToyMTo1MCswMDowMAWXSakAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII=">
     <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAzFBMVEUAAADe3t7e3t7e3t7g4ODg4N/f39+oq7Cmqa/d3d3Z2dqorLHU1da4u76usbbP0NFmbXllbHjNztDT1NVudYDLzM7Iyctrcn22ub3h4OCqrbKDiJGFi5Ph4eFwd4HCxMZ5f4mdoKeBho+ws7iAho99g4yBh4/b29uztbqztrpwdoF6gImDiZHb3Nylqa5fZ3Omqq/W1tfBw8aanqTc3NyrrrN6gIrR0tPKzM1scn2tsLXY2NnT09XS09Smqa6oq7G9v8Knqq/g39////8P/zbOAAAAA3RSTlMAH+CXJig4AAAAAWJLR0RDZ9ANYgAAAAd0SU1FB+cHAwEVMpmgL8cAAACdSURBVBjTZY/JEoIwEESjEwaXiCJEBRVxX0BwwR3X//8oSYpTeIc5vKru6iFEpaRAygoEMijNjgaACCCFXqlCrc5ow5ACmy2zrVk273R7KITj9gf60PJG/jiPTIzpDCxvvliCEMjN1drkbBOEWymcKA7DeLf3DsFRRhL/hOieLza/3u6i9BGliM9X+mb0801EqQZy1i8fVpheeE7lD+jsDLBLQD3XAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA3LTAzVDAxOjIxOjUwKzAwOjAwdMrxFQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wNy0wM1QwMToyMTo1MCswMDowMAWXSakAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII=">
@@ -9,8 +10,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>Ammaar | Porfolio</title>
-    <script type="module" crossorigin src="/portfolio/assets/index-2dc25235.js"></script>
-    <link rel="stylesheet" href="/portfolio/assets/index-206f9628.css">
+    <script type="module" crossorigin src="/portfolio/assets/index-63ff9451.js"></script>
+    <link rel="stylesheet" href="/portfolio/assets/index-2a0ee8bd.css">
   </head>
   <body>
     <div id="root"></div>

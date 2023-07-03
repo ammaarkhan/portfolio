@@ -155,7 +155,7 @@ import {
   
   const experiences = [
     {
-      title: "React Native Developer",
+      title: "Software Developer",
       company_name: "Jobbox",
       icon: jobbox,
       iconBg: "#383E56",
@@ -165,9 +165,10 @@ import {
         "Improved user connectivity by developing a comprehensive messaging feature, employing data structures, back-end integration, and UI design, allowing for seamless communication between users and potential employers.",
         "Boosted user responsiveness by implementing a real-time notifications feature, alerting users about incoming messages and job application updates, thus promoting timely user response and engagement.",
       ],
+      link: "https://www.linkedin.com/company/jobbox-inc/",
     },
     {
-      title: "Software Developer",
+      title: "Tech Lead",
       company_name: "Brokol",
       icon: brokol,
       iconBg: "#383E56",
@@ -177,6 +178,7 @@ import {
         "Built a receipt scanner module utilizing Apples Vision framework and RegEx patterns to extract product names from grocery receipts, achieving an accuracy of 85%.",
         "Designed and implemented a grocery item database using Sqflite in Flutter, providing seamless CRUD functionalities.",
       ],
+      link: "https://www.brokol.app",
     },
     {
       title: "Data Analyst Intern",
@@ -189,6 +191,7 @@ import {
         "Worked cross-functionally with the DevOps team on the instrumentation of a client's consumer-facing app and successfully implemented alert monitors, resulting in a notable 50% decrease in critical incidents.",
         "Integrated various organizational sources to Elastic Workplace Search service for Capillary Technologies, improving the accuracy and reliability of search results.",
       ],
+      link: "https://www.capillarytech.com"
     },
   ];
   
