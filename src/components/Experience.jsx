@@ -1,29 +1,30 @@
+import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import {motion} from 'framer-motion';
-
 import 'react-vertical-timeline-component/style.min.css';
-
 import {styles} from '../styles';
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { InView } from 'react-intersection-observer';
+
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-  contentStyle={{background: '#1d1836', color: "#fff"}}
-  contentArrowStyle={{borderRight: '7px solid #232631'}}
-  date={experience.date}
-  iconStyle={{background: experience.iconBg}}
-  icon={
-    <div className='flex justify-center items-center w-full h-full'>
-      <img
-        src={experience.icon}
-        alt={experience.company_name}
-        className="w-[90%] h-[90%]
-        object-contain"
-      />
-    </div>
-  }
+    contentStyle={{background: '#1d1836', color: "#fff"}}
+    contentArrowStyle={{borderRight: '7px solid #232631'}}
+    date={experience.date}
+    iconStyle={{background: experience.iconBg}}
+    icon={
+      <div className='flex justify-center items-center w-full h-full'>
+        <img
+          src={experience.icon}
+          alt={experience.company_name}
+          className="w-[90%] h-[90%]
+          object-contain"
+        />
+      </div>
+    }
   >
     <div>
       <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
@@ -39,28 +40,31 @@ const ExperienceCard = ({ experience }) => (
           {point}
         </li>
       ))}
-
     </ul>
   </VerticalTimelineElement>
 )
 
 const Experience = () => {
   return (
-    <>
-    <motion.div variants={textVariant()}>
-      {/* <p className={styles.sectionSubText}>What I have done so far</p> */}
-      <h2 className={styles.sectionHeadText}><span className='text-[#915eff]'>Work Experience</span></h2>
-    </motion.div>
+    <InView triggerOnce>
+      {({ inView, ref, entry }) => (
+        <div ref={ref}>
+          <motion.div variants={textVariant()} initial='hidden' animate={inView ? 'show' : 'hidden'}>
+            <h2 className={styles.sectionHeadText}><span className='text-[#915eff]'>Work Experience</span></h2>
+          </motion.div>
 
-    <div className="mt-20 flex flex-col">
-      <VerticalTimeline>
-        {experiences.map((experience, index) =>(
-          <ExperienceCard key={index} experience={experience} />
-        ))}
-      </VerticalTimeline>
-    </div>
-    </>
+          <motion.div className="mt-20 flex flex-col" variants={textVariant()} initial='hidden' animate={inView ? 'show' : 'hidden'}>
+            <VerticalTimeline>
+              {experiences.map((experience, index) =>(
+                <ExperienceCard key={index} experience={experience} />
+              ))}
+            </VerticalTimeline>
+          </motion.div>
+        </div>
+      )}
+    </InView>
   )
 }
+
 
 export default SectionWrapper(Experience,"work")
