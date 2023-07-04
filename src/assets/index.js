@@ -46,6 +46,7 @@ import jobbox from "./company/jobbox.jpeg"
 
 import carrent from "./carrent.png";
 import acechat from "./acechat.png"
+import robotarm from "./robotarm.png";
 import jobit from "./jobit.png";
 import celebdetect from "./celebdetect.png";
 import cardetect from "./cardetect.png";
@@ -99,4 +100,5 @@ export {
   swift,
   tensorflow,
   java,
+  robotarm,
 };

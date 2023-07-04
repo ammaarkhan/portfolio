@@ -42,6 +42,7 @@ import {
     acechat,
     celebdetect,
     cardetect,
+    robotarm,
   } from "../assets";
   
   export const navLinks = [
@@ -285,6 +286,27 @@ import {
       ],
       image: cardetect,
       source_code_link: "https://github.com/ammaarkhan/OD-Car-Counter",
+    },
+    {
+      name: "Arduino Robot Arm",
+      description:
+        "This is a robot arm equipped with six degrees of motion built using an Arduino UNO, delivering precise mechanical movements. This compact robot demonstrates the intersection of software programming and hardware engineering, efficiently managing tasks requiring intricate manipulation.",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Arduino",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CAD/CAM",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: robotarm,
+      // source_code_link: "https://github.com/ammaarkhan/ML-Celeb-Detector",
     },
   ];
   
