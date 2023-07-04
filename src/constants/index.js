@@ -227,7 +227,7 @@ import {
     {
       name: "Ace Chatbot",
       description:
-      "A university advising chatbot that provides a conversational interface for students to interact with, for common advising questions.",
+      "Ace is a student advising chatbot built with TensorFlow and spaCy, to answer common advising questions. It uses language processing techniques to understand student queries better and provide accurate, personalized responses.",
       tags: [
         {
           name: "Python",
