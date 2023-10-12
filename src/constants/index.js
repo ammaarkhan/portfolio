@@ -25,7 +25,7 @@ import {
     threejs,
     capillary,
     brokol,
-    jobbox,
+    md,
     arduino,
     cplus,
     dart,
@@ -62,15 +62,15 @@ import {
   
   const services = [
     {
-      title: "App Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "ML Developer",
+      title: "Robotics Enthusiast",
       icon: mobile,
     },
     {
-      title: "Robotics Enthusiast",
+      title: "ML Developer",
       icon: backend,
     },
     {
@@ -156,17 +156,17 @@ import {
   
   const experiences = [
     {
-      title: "Software Developer",
-      company_name: "Jobbox",
-      icon: jobbox,
-      iconBg: "#383E56",
+      title: "Software Lead & VP Finance",
+      company_name: "Marine Design Club",
+      icon: md,
+      iconBg: "#ffffff",
       date: "May 2023 - Present",
       points: [
-        "Enhanced user engagement by redesigning the wallet page UI with the integration of interactive pie-charts, leading to a personalized and visually engaging income and spending tracking system.",
-        "Improved user connectivity by developing a comprehensive messaging feature, employing data structures, back-end integration, and UI design, allowing for seamless communication between users and potential employers.",
-        "Boosted user responsiveness by implementing a real-time notifications feature, alerting users about incoming messages and job application updates, thus promoting timely user response and engagement.",
+        "Co-founder of the Marine Design Club, a student-led organization at the University of British Columbia, dedicated to the development of autonomous underwater vehicles (AUV).",
+        "Overseeing team of 6 in software team to build the first-gen AUV at the club.",
+        "Managing the club's finances and budget, and general club operations.",
       ],
-      link: "https://www.linkedin.com/company/jobbox-inc/",
+      link: "https://www.okmarinedesign.ca",
     },
     {
       title: "Tech Lead",
@@ -175,9 +175,9 @@ import {
       iconBg: "#383E56",
       date: "October 2022 - Present",
       points: [
-        "Led the production of an app to reduce consumer food waste, initiating the development cycle during BC HACKS 4.0.",
-        "Built a receipt scanner module utilizing Apples Vision framework and RegEx patterns to extract product names from grocery receipts, achieving an accuracy of 85%.",
-        "Designed and implemented a grocery item database using Sqflite in Flutter, providing seamless CRUD functionalities.",
+        "Spearheaded the development of the Brokol App, a React Native application designed to curb household food waste by enabling efficient grocery tracking and promoting eco-friendly consumption behaviors.",
+        "Designed and implemented a receipt scanner module using OCR, RegEx, data cleansing techniques, and OpenAI's GPT API, efficiently extracting item names and generating expiry dates, achieving an accuracy of 90% on test dataset.",
+        "Collaborated with design and development teams to translate user needs into product features, and led user research initiatives, ensuring responsiveness to user challenges, and alignment with our sustainable mission.",
       ],
       link: "https://www.brokol.app",
     },

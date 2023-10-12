@@ -43,6 +43,7 @@ import tesla from "./company/tesla.png";
 import capillary from "./company/capillary.png";
 import brokol from "./company/brokol.png";
 import jobbox from "./company/jobbox.jpeg"
+import md from "./company/md.png";
 
 import carrent from "./carrent.png";
 import acechat from "./acechat.png"
@@ -101,4 +102,5 @@ export {
   tensorflow,
   java,
   robotarm,
+  md,
 };

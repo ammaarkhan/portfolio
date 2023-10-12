@@ -34,7 +34,7 @@ const About = () => {
       </div>
 
       <p className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I'm a skilled software developer with experience in Python, Java, and JavaScript, expertise in ML libraries such as Tensorflow and PyTorch, and frameworks such as React and Flutter. I'm a self starter and love collaborating with people on projects in fields such as robotics, machine learning and application development. 
+          I'm a skilled software developer with proficiency in Java, TypeScript and Python, full-stack experience in React and React Native, and expertise in ML libraries such as Tensorflow and PyTorch. I'm a self starter and love collaborating with people on projects in fields such as robotics, machine learning and software development.
       </p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
