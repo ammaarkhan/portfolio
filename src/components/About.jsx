@@ -34,7 +34,7 @@ const About = () => {
       </div>
 
       <p className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I'm a skilled software developer with proficiency in Java, TypeScript and Python, full-stack experience in React and React Native, and expertise in ML libraries such as Tensorflow and PyTorch. I'm a self starter and love collaborating with people on projects in fields such as robotics, machine learning and software development.
+    I am an experienced developer with proficiency in Python, Java and JavaScript. I'm a self starter and love collaborating with people on meaningful projects. Currently I'm working at CGI as a Full Stack Developer Intern (my 9-5) and building Brokol (my 5-9)
       </p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

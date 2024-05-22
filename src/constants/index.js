@@ -62,20 +62,20 @@ import {
   
   const services = [
     {
+        title: "Entrepreneur",
+        icon: creator,
+    },
+    {
       title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "Robotics Enthusiast",
+      title: "Tech Enthusiast",
       icon: mobile,
     },
     {
-      title: "ML Developer",
+      title: "Problem Solver",
       icon: backend,
-    },
-    {
-      title: "Entrepreneur",
-      icon: creator,
     },
   ];
   
