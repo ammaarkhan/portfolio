@@ -66,16 +66,16 @@ import {
         icon: creator,
     },
     {
+        title: "Problem Solver",
+        icon: backend,
+    },
+    {
       title: "Full Stack Developer",
       icon: web,
     },
     {
       title: "Tech Enthusiast",
       icon: mobile,
-    },
-    {
-      title: "Problem Solver",
-      icon: backend,
     },
   ];
   
@@ -156,30 +156,29 @@ import {
   
   const experiences = [
     {
-      title: "Software Lead & VP Finance",
+        title: "Co-Founder & Product Lead",
+        company_name: "Brokol",
+        icon: brokol,
+        iconBg: "#383E56",
+        date: "October 2022 - Present",
+        points: [
+          "Spearheaded the development and beta launch of a mobile application designed to curb household food waste by enabling efficient grocery tracking and promoting eco-friendly consumption behaviors, achieving over 300 user sign-ups.",
+          "Managed a diverse team of four, including a UI designer and two developers, orchestrating the end-to-end development process to align with user-centric design principles and achieve our strategic objectives in an agile environment.",
+          "Initiated a strategic pivot to target a new demographic based on comprehensive user feedback and analytics, leading user discovery efforts from interviews to product roadmapping, thereby refining our focus and enhancing market alignment.",
+        ],
+        link: "https://www.brokol.app",
+    },
+    {
+      title: "Machine Learning Team",
       company_name: "Marine Design Club",
       icon: md,
       iconBg: "#ffffff",
       date: "May 2023 - Present",
       points: [
-        "Co-founder of the Marine Design Club, a student-led organization at the University of British Columbia, dedicated to the development of autonomous underwater vehicles (AUV).",
+        "Co-founder of the Marine Design Club, a student-led engineering club at the University of British Columbia, dedicated to the development of autonomous underwater vehicles (AUV).",
         "Overseeing team of 6 in software team to build the first-gen AUV at the club.",
-        "Managing the club's finances and budget, and general club operations.",
       ],
       link: "https://www.okmarinedesign.ca",
-    },
-    {
-      title: "Tech Lead",
-      company_name: "Brokol",
-      icon: brokol,
-      iconBg: "#383E56",
-      date: "October 2022 - Present",
-      points: [
-        "Spearheaded the development of the Brokol App, a React Native application designed to curb household food waste by enabling efficient grocery tracking and promoting eco-friendly consumption behaviors.",
-        "Designed and implemented a receipt scanner module using OCR, RegEx, data cleansing techniques, and OpenAI's GPT API, efficiently extracting item names and generating expiry dates, achieving an accuracy of 90% on test dataset.",
-        "Collaborated with design and development teams to translate user needs into product features, and led user research initiatives, ensuring responsiveness to user challenges, and alignment with our sustainable mission.",
-      ],
-      link: "https://www.brokol.app",
     },
     {
       title: "Data Analyst Intern",
